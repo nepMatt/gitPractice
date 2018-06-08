@@ -31,7 +31,16 @@
 }
 
 .mainContentContainer > article{
-	@apply .w-1/2 .p-4 .m-3 .shadow;
+	@apply .max-w-xl .p-4 .m-3 .shadow;
+}
+
+.mainContentContainer > article > img{
+	@apply .float-left .p-2;
+}
+
+
+.mainContentContainer > article:hover{
+	@apply .bg-blue-light;
 }
 
 // FOOTER

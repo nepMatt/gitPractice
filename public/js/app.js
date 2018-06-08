@@ -47537,6 +47537,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -47561,6 +47565,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "mainContentContainer" }, [
       _c("article", [
+        _c("img", { attrs: { src: "https://picsum.photos/200?random" } }),
+        _vm._v(" "),
         _c("h1", [_vm._v("Subarus are fucking cool")]),
         _vm._v(" "),
         _c("p", [
@@ -47571,6 +47577,8 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("article", [
+        _c("img", { attrs: { src: "https://picsum.photos/200?random" } }),
+        _vm._v(" "),
         _c("h1", [_vm._v("Subarus are fucking awesome")]),
         _vm._v(" "),
         _c("p", [
@@ -47581,6 +47589,8 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("article", [
+        _c("img", { attrs: { src: "https://picsum.photos/200?random" } }),
+        _vm._v(" "),
         _c("h1", [_vm._v("Subarus are fucking the best")]),
         _vm._v(" "),
         _c("p", [
@@ -47591,6 +47601,8 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("article", [
+        _c("img", { attrs: { src: "https://picsum.photos/200?random" } }),
+        _vm._v(" "),
         _c("h1", [_vm._v("Subarus are fucking crazy kewl")]),
         _vm._v(" "),
         _c("p", [
