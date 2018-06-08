@@ -1,0 +1,40 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+// HEADER
+.headerContainer{
+	@apply .w-full .bg-blue-light .h-48 .flex .justify-center .items-center .text-5xl .text-white;
+}
+
+// NAVBAR
+.navbarContainer{
+	@apply .w-full .bg-blue-dark;
+}
+.navbarContainer > ul{
+	@apply .list-reset .flex .justify-start;
+}
+.navbarContainer > ul > li{
+	@apply .p-4;
+}
+.navbarContainer > ul > li:hover{
+	@apply .bg-blue-darker
+}
+.navbarContainer > ul > li > a{
+	@apply .no-underline .text-white;
+}
+
+// CONTENT
+.mainContentContainer{
+	@apply .w-full .bg-blue-lightest; // basic classes for the element
+	@apply .flex .flex-col .justify-center .items-center .p-8; //for the card/article things
+}
+
+.mainContentContainer > article{
+	@apply .w-1/2 .p-4 .m-3 .shadow;
+}
+
+// FOOTER
+.footerContainer{
+	@apply .w-full .bg-blue-light .h-48 .flex .justify-center .items-center .text-white;
+}
